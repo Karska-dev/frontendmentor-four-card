@@ -7,7 +7,7 @@
 html {
   width: 100vw;
   height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 15px;
   font-weight: 400;
   background-color: hsl(0, 0%, 98%);
@@ -26,6 +26,7 @@ body {
 main {
   border: 1px dotted;
   height: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -36,12 +37,13 @@ main {
 .title {
   text-align: center;
   width: 50%;
+  height: 20%;
 }
 
 h1 {
   font-weight: 200;
   font-size: 35px;
-  color: hsl(234, 12%, 34%);
+  color: rgb(76, 78, 97);
 }
 
 h2 {
@@ -52,18 +54,27 @@ h2 {
 
 .container {
   border: 1px dotted red;
+  height: 80%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  align-content: center;
+  flex-direction: column;
+}
+
+.container__wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   height: 250px;
   width: 350px;
   background-color: white;
-  border: 1px dotted;
   border-radius: 10px;
   border-top: solid 3px black;
   display: flex;
@@ -72,6 +83,10 @@ h2 {
   justify-content: space-between;
   padding: 30px;
   margin: 15px;
+  box-shadow: 0 3.4px 2.7px rgba(76, 78, 97, 0.022),
+    0 8.7px 6.9px rgba(76, 78, 97, 0.031),
+    0 17.7px 14.2px rgba(76, 78, 97, 0.039),
+    0 36.5px 29.2px rgba(76, 78, 94, 0.048), 0 100px 80px rgba(76, 78, 97, 0.07);
 }
 
 .card_color_cyan {
@@ -108,5 +123,10 @@ footer {
   bottom: 5px;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
