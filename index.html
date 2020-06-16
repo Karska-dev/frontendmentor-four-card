@@ -1,45 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+  <body>
+    <main>
+      <div class="title">
+        <h1>Reliable, efficient delivery<br>
+        <b>Powered by Technology</b></h1>
+        <p>
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </div>
+      <div class="container">
+        <div class="container__wrapper">
+          <div class="card card_color_cyan">
+            <div class="card__info">
+              <div class="card__title">Supervisor</div>
+              <p>Monitors activity to identify project roadblocks</p>
+            </div>
+            <div class="card__img">
+              <img alt="supervisor icon" src="images/icon-supervisor.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="card card_color_red">
+          <div class="card__info">
+            <div class="card__title">Team Builder</div>
+            <p>
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+          </div>
+          <div class="card__img">
+            <img alt="house icon" src="images/icon-team-builder.svg" />
+          </div>
+        </div>
+        <div class="card card_color_orange">
+          <div class="card__info">
+            <div class="card__title">Karma</div>
+            <p>
+              Regularly evaluates our talent to ensure quality
+            </p>
+          </div>
+          <div class="card__img">
+            <img alt="idea icon" src="images/icon-karma.svg" />
+          </div>
+        </div>
+        <div class="card card_color_blue">
+          <div class="card__info">
+            <div class="card__title">Calculator</div>
+            <p>
+              Uses data from past projects to provide better delivery estimates
+            </p>
+          </div>
+          <div class="card__img">
+            <img alt="calculator icon" src="images/icon-calculator.svg" />
+          </div>
+        </div>
+      </div>
+    </main>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Karska</a>.
+      </p>
+    </footer>
+  </body>
 </html>
